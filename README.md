@@ -23,7 +23,8 @@ Now, try to authenticate with your **kse email** using the following command:
 gcloud auth application-default login \
   --scopes=https://www.googleapis.com/auth/bigquery,\
 https://www.googleapis.com/auth/drive.readonly,\
-https://www.googleapis.com/auth/iam.test
+https://www.googleapis.com/auth/iam.test,\
+https://www.googleapis.com/auth/cloud-platform
 ```
 
 Now, when you run the following commands something similar should be response: 
