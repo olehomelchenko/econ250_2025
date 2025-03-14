@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: mtalalaievskyi
+    database: econ250-2025
+    schema: mtalalaievskyi
+    tables:
+      - name: week3_arxiv
+      - name: sheet_external
