@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: asyvak
+    database: econ250-2025  
+    schema: asyvak 
+    tables:
+      - name: week3_arxiv
+      - name: sheet_external_practice
+  - name: google_trends
+    database: bigquery-public-data
+    schema: google_trends
+    tables:
+      - name: international_top_terms
