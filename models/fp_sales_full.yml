@@ -1,0 +1,44 @@
+version: 2
+
+models:
+  - name: int_fp_sales_full
+    description: This dataset aggregates sales information by combining order, customer, payment, and item data
+    columns:
+      - name: order_id
+        description: Unique identifier for the order
+      - name: customer_id
+        description: Unique identifier for the customer placing the order
+      - name: customer_unique_id
+        description: A unique identifier for the customer
+      - name: customer_zip_code_prefix
+        description: Zip code prefix of the customer
+      - name: customer_city
+        description: City where the customer resides
+      - name: customer_state
+        description: State where the customer resides
+      - name: order_status
+        description: Current status of the order.
+      - name: order_purchase_timestamp
+        description: Timestamp of when the order was placed
+      - name: order_approved_at
+        description: Timestamp when the order was approved
+      - name: order_delivered_carrier_date
+        description: Timestamp when the order was delivered to the carrier
+      - name: order_delivered_customer_date
+        description: Timestamp when the order was delivered to the customer
+      - name: order_estimated_delivery_date
+        description: The estimated date for the delivery of the order
+      - name: is_delivered
+        description: Whether the order was delivered or not
+      - name: delivery_time_hours
+        description: Time taken for the order to be delivered in hours
+      - name: payments
+        description: Array of payment details related to the order
+      - name: items
+        description: Array of items in the order with various product and seller information
+      - name: total_payment_value
+        description: The total value of the payments made for the order
+      - name: item_count
+        description: The total number of items in the order
+      - name: total_order_value
+        description: The total value of the order, including item price and freight charges
