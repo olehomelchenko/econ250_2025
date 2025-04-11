@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: test_dataset
+    database: econ250-2025  
+    schema: test_dataset 
+    tables:
+      - name: assignment5_input
+        columns: 
+          - name: datehour
+          - name: wiki
+          - name: title
+          - name: views
+
